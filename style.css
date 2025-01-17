@@ -60,3 +60,45 @@ p {
         width: 90%;
     }
 }
+
+#projects {
+    background-color: #f9f9f9;
+    padding: 2rem;
+    text-align: center;
+}
+
+.project {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 1rem auto;
+    padding: 1.5rem;
+    width: 80%;
+}
+
+.project h3 {
+    color: #4CAF50;
+    margin-bottom: 0.5rem;
+}
+
+.project p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.project a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .project {
+        width: 90%;
+    }
+}
